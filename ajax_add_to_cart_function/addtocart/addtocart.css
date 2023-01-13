@@ -1,0 +1,49 @@
+.et_pb_module .et_overlay:before{
+    display: none;
+}
+
+.et_pb_module .et_overlay {
+    color: #000;
+    font-size: 26px;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.et_pb_module .et_overlay .addtocart_button{
+    border-width: 10px!important;
+    border-color: #93b786;
+    border-radius: 0px;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-family: 'Karla',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    background-color: #93b786;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    pointer-events: auto;
+}
+.et_pb_module .et_overlay .addtocart_button:hover{
+    padding: 0.3em 1em;
+}
+.et_pb_module .et_overlay .addtocart_button:after{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .et_pb_module .et_overlay{
+        display: none;
+    }
+}
